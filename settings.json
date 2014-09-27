@@ -1,0 +1,19 @@
+﻿{
+    "enabled": true,
+    "mode": "periodical",
+    "period": 60,
+    "firstId": 102000,
+    "debug": false,
+    "settings":
+    {
+        "host": "192.168.2.101",
+        "port": 502,
+		"mysql":
+		{
+			"host": "127.0.0.1",
+			"user": "USER",
+			"pass": "PASS",
+			"database": "pluggit"
+		}
+    }
+}
