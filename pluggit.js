@@ -131,7 +131,7 @@ var timestamp = Math.round(new Date().getTime() / 1000);
 var FC = require('modbus-stack').FUNCTION_CODES;
 
 // IP and port of the MODBUS slave, default port is 502
-var client = require('modbus-stack/client').createClient(502, '192.168.2.140');
+var client = require('modbus-stack/client').createClient(settings.adapters.pluggit.settings.port, settings.adapters.pluggit.host);
 var buffer = require('buffer').Buffer;
 
 /* modbus data is stored here */
